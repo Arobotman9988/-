@@ -1,8 +1,3 @@
-"""
-Hello Talk 数据分析主引擎
-面向面试的完整分析流程 - 展示商业洞察力
-"""
-
 import pandas as pd
 import numpy as np
 from datetime import datetime, timedelta
@@ -17,7 +12,7 @@ plt.rcParams['font.sans-serif'] = ['SimHei', 'Microsoft YaHei', 'Arial Unicode M
 plt.rcParams['axes.unicode_minus'] = False
 
 class HelloTalkAnalyzer:
-    """Hello Talk 业务数据分析器"""
+    """业务数据分析器"""
 
     def __init__(self, data_dir='data'):
         self.data_dir = data_dir
@@ -342,11 +337,11 @@ class HelloTalkAnalyzer:
     def generate_executive_summary(self):
         """📋 生成执行摘要报告"""
         print("\n" + "="*70)
-        print("📋 Hello Talk 数据分析 - 执行摘要")
+        print("📋  数据分析 - 执行摘要")
         print("="*70)
 
         print("\n🎯 项目背景:")
-        print("   本报告基于模拟的 Hello Talk 平台业务数据，展示完整的数据分析能力")
+        print("   本报告基于模拟的 平台业务数据，展示完整的数据分析能力")
         print("   涵盖用户增长、留存、核心功能（语言配对）、用户分群和商业化五大维度\n")
 
         print("🔍 核心发现:")
@@ -359,7 +354,7 @@ class HelloTalkAnalyzer:
                 print(f"       优化空间: {insight['optimization']}")
 
         print("\n💡 面试亮点说明:")
-        print("   ✓ 展示了对 Hello Talk 核心商业模式的理解（语言交换+社交）")
+        print("   ✓ 展示了对  核心商业模式的理解（语言交换+社交）")
         print("   ✓ 运用了多种分析方法：漏斗分析、队列分析、RFM 分群")
         print("   ✓ 提供了可落地的业务建议，而非仅描述性统计")
         print("   ✓ 使用 vibe coding 快速完成端到端项目交付")
@@ -367,7 +362,7 @@ class HelloTalkAnalyzer:
 
 def main():
     """运行完整分析流程"""
-    print("🚀 启动 Hello Talk 数据分析引擎...")
+    print("🚀 启动数据分析引擎...")
 
     analyzer = HelloTalkAnalyzer()
     analyzer.load_data()
