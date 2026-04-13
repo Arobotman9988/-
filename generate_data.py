@@ -1,8 +1,3 @@
-"""
-Hello Talk 数据生成器 - 模拟真实业务场景
-生成用户、语言配对、社交互动等多维度数据
-"""
-
 import pandas as pd
 import numpy as np
 from datetime import datetime, timedelta
@@ -172,7 +167,7 @@ def generate_retention_cohorts(users_df, activity_df):
 
 def main():
     print("=" * 60)
-    print("🚀 Hello Talk 数据分析项目 - 数据生成器")
+    print("🚀 数据分析项目 - 数据生成器")
     print("=" * 60)
 
     # 生成各类数据
